@@ -8,19 +8,20 @@
     <!-- link bootstrap v5.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!-- link to VUE -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <!-- link to CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Document</title>
+    <title>setup repo</title>
 </head>
 <body>
     <main>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>
-                        Hello Universe!
-                    </h1>
+                    <h1 id="app">{{ message }}</h1>
                 </div>
             </div>
         </div>
